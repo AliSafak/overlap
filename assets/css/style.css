@@ -1,0 +1,75 @@
+body {
+  color: white;
+  font-family:Lexend ;
+}
+
+.main {
+  position: relative;
+  background-color: black;
+  width: 600px;
+  height: 600px;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.html {
+  margin: 155px 265px 245px 135px;
+  margin-left:135px ;
+  margin-top: 155px;
+  position: absolute;
+  text-align: center;
+  background-color:#E76F51E5 ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.css {
+  margin: 155px 135px 245px 265px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  background-color:#018ADFE5 ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.js {
+  position: absolute;
+  margin:245px 205px 155px 195px ;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color:#E9C46AE5 ;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.html , .css , .js {
+  box-sizing: border-box;
+  font-family: Lexend;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 75px;
+}
+
+.html:hover {
+  cursor: pointer;
+  z-index: 2;
+  background-color:rgba(231, 111, 81, 1) ;
+}
+
+.css:hover {
+  cursor: pointer;
+  z-index: 3;
+  background-color:rgba(1, 138, 223, 1) ;
+}
+
+.js:hover {
+  cursor: pointer;
+  z-index: 4;
+  background-color:rgba(233, 196, 106, 1) ;
+}
